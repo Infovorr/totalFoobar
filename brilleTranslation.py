@@ -34,6 +34,6 @@ def brilleTranslation(string):
 	for character in string:
 		if character.isupper():
 			outputString += "000001"
-		outputString = outputString + brilleDict[character.lower()]
+		outputString += brilleDict[character.lower()]
 	
 	return outputString

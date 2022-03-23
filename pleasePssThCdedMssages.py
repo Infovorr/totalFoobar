@@ -1,7 +1,7 @@
 import functools
 
 def pleasePssThCdedMssages(array):
-    thisList = l[:]
+    thisList = array[:]
     listLength = len(thisList)
     thisList.sort(reverse = True)
     total = sum(thisList)

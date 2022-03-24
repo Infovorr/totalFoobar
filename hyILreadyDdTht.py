@@ -9,7 +9,6 @@ def hyILreadyDdTht(n, b):
 		xNum = int(''.join(x), b)
 		yNum = int(''.join(y), b)
 		zNum = xNum - yNum
-		time.sleep(5)
 		if (b != 10):
 			newZNum = ''
 			while zNum:
